@@ -37,11 +37,6 @@ img{
   a{
     text-decoration: none;
 }
-@media(min-resolution){
-.section-one{
-  background-image: url(../images/people-office.jpg);
-}
-}
 .studio{
 
 font-family: "Raleway", serif;
