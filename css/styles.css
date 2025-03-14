@@ -113,10 +113,6 @@ text-align: center;
   background-color: #404bbf;
   border-radius: 2px;
 }
-.address-list{
-  display: flex;
-  gap: 40px;
-}
 .link-head:hover,
 .link-head:focus{
 color:#404bbf;
@@ -124,6 +120,10 @@ color:#404bbf;
 .address-head{
   font-style: normal;
   margin-left: auto;
+}
+.address-list{
+  display: flex;
+  gap: 40px;
 }
 .link-address{
 font-family: "Roboto";
@@ -139,6 +139,9 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .link-address:focus, 
 .link-address:hover{
   color: #404BBF;
+}
+.mobile-button{
+  
 }
 h2{
 font-family: "Roboto";
@@ -196,6 +199,50 @@ text-align: left;
 .button-order:focus{
   background-color: #404BBF;
   cursor: pointer;
+}
+.section-two{
+  padding: 120px 0;
+}
+.conteiner-strategy {
+  justify-content: center;
+}
+.section-two-list{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.conteiner-strategy>li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 264px;
+  height: 104px;
+}
+.section-two-item{
+  display: inline-block;
+  width: calc((100% - 72px) / 4);
+}
+.list-prof{
+  display: flex;
+  gap: 24px;
+}
+.icon {
+  width: 64px;
+  height: 64px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 .zag{
   font-weight: 500;
@@ -325,50 +372,7 @@ color: #434455;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-two{
-  padding: 120px 0;
-}
-.conteiner-strategy {
-  justify-content: center;
-}
-.section-two-list{
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  align-items: center;
-  justify-content: space-between;
-}
-.conteiner-strategy>li {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  width: 264px;
-  height: 104px;
-}
-.section-two-item{
-  display: inline-block;
-  width: calc((100% - 72px) / 4);
-}
-.list-prof{
-  display: flex;
-  gap: 24px;
-}
-.icon {
-  width: 64px;
-  height: 64px;
-}
-.icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-}
+
 .socials-list{
   display: flex;
   justify-content: center;
