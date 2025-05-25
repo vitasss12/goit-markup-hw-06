@@ -755,11 +755,10 @@ button {
         gap: 16px;
     }
 
-    .subscribe-footer {
-        /* margin-left: auto; */
-        /* justify-content: start; */
+ .subscribe-footer {
+    margin-left: auto;
+    justify-content: start;
     }
-
     .footer-text.footer {
         text-align: left;
     }
