@@ -41,10 +41,7 @@ img{
 
 font-family: "Raleway", serif;
 color:#2e2f42;}
-.studio-footer{
-color: #F4F4FD;
-display: inline-block;
-}
+
 .logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -398,6 +395,10 @@ fill: #f4f4fd;
 .footer{
   background-color:#2e2f42;
   padding: 100px 0;
+}
+.studio-footer{
+color: #F4F4FD;
+display: inline-block;
 }
 .footer-para{
   line-height: 1.5;
